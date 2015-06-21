@@ -26,7 +26,7 @@ This R script converts the raw data into tidy data (as required in the project) 
 
 ## Creating `subfeatures.txt` (Extracting means and standard deviation of measurements)
 
-`features.txt` is a file in `UCI HAR Dataset` that stores the names of each variable of the raw dataset. Because we are interested only in specific variables (namely the mean and standard deviations only for each measurement) hence we create a file storing names of only those relevant variables. There are 11 measurement types x 3 dimensions = 33 measurements. Hence 33 means of the measurement and 33 standard deviations of the measurements. These 66 variable names are manually extracted from `features.txt` and stored in `subfeatures.txt`
+`features.txt` is a file in `UCI HAR Dataset` that stores the names of each variable of the raw dataset. Because we are interested only in specific variables (namely the mean and standard deviations only for each measurement) hence we create a file storing names of only those relevant variables. There are 66 relevant variables in the raw data. These 66 variable names are manually extracted from `features.txt` and stored in `subfeatures.txt`
 
 ## How run_analysis.R works
 
